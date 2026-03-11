@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Ficha de Inscrição</title>
+</head>
+
+<body>
+
+<h2>Ficha de Inscrição</h2>
+
+<form>
+
+Nome do candidato:
+<input type="text" name="nome">
+<br><br>
+
+Endereço:
+<input type="text" name="endereco">
+<br><br>
+
+CEP:
+<input type="text" name="cep">
+
+Cidade:
+<select name="cidade">
+<option>-- Cidade --</option>
+<option>São Paulo</option>
+<option>Rio de Janeiro</option>
+<option>Belo Horizonte</option>
+</select>
+
+UF:
+<select name="uf">
+<option>-- UF --</option>
+<option>SP</option>
+<option>RJ</option>
+<option>MG</option>
+</select>
+<br><br>
+
+Telefone:
+<input type="text" name="telefone1">
+<input type="text" name="telefone2">
+<input type="text" name="telefone3">
+<br><br>
+
+RG:
+<input type="text" name="rg">
+
+CPF:
+<input type="text" name="cpf">
+<br><br>
+
+Sexo:
+<input type="radio" name="sexo" value="masc"> Mas.
+<input type="radio" name="sexo" value="fem"> Fem.
+<br><br>
+
+Escolaridade:
+<select name="escolaridade">
+<option>-- Selecione --</option>
+<option>Fundamental</option>
+<option>Médio</option>
+<option>Superior</option>
+</select>
+<br><br>
+
+Email:
+<input type="text" name="email">
+<br><br>
+
+Curso:
+<select name="curso">
+<option>-- Selecione --</option>
+<option>Informática</option>
+<option>Administração</option>
+<option>Enfermagem</option>
+</select>
+<br><br>
+
+Senha de acompanhamento:
+<input type="password" name="senha">
+<br><br>
+
+<button type="submit">CADASTRAR</button>
+
+</form>
+
+</body>
+</html>
